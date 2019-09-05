@@ -1,0 +1,26 @@
+#header {
+  height: 52px;
+}
+
+#banner h1 {
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #00000069;
+}
+
+#main, #menu, #header, #banner:after, #footer {
+  background-color: #2a4a43e6;
+}
+
+#banner:after {
+  opacity: 0.40 ;
+}
+
+.logo img {
+  margin-top: -2px;
+  max-width: 250px;
+}
+
+#banner > .inner .content p {
+  font-size: .8em;
+}
