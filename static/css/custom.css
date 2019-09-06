@@ -8,7 +8,7 @@
   text-shadow: 0 1px 0 #00000069;
 }
 
-#main, #menu, #header, #banner:after, #footer {
+#main, #menu, #header, #banner:after, #banner.style2:after, #footer {
   background-color: #2a4a43e6;
 }
 
@@ -23,4 +23,12 @@
 
 #banner > .inner .content p {
   font-size: .8em;
+}
+
+.tiles article:nth-child(6n - 5):before {
+  background-color: #dfd76f;
+}
+
+.tiles article:nth-child(6n - 4):before {
+	background-color: #82c48b;
 }
