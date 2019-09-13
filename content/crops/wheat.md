@@ -3,6 +3,8 @@ title: "Wheat"
 description: "Elite wheat from seven different breeding programs"
 slug: "wheat"
 image: "../wheat.jpg"
+link: "https://www.dfseeds.com"
+pdf: "2019_df.pdf"
 keywords: ""
 categories: 
     - ""
@@ -11,4 +13,6 @@ date: 2017-10-31T21:28:43-05:00
 draft: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
+## Elite wheat from seven breeding programs
+
+DFender Seed Treatment is included on all DF wheat seed. DFender seed treatment “protects your genetic potential” by defending against seedling diseases, wireworms, and aphids. DFender uses four fungicides and an insecticide to protect wheat seedlings.

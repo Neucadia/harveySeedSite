@@ -3,6 +3,7 @@ title: "Cover Crops"
 description: "Preserve soil biomass, prevent nutrient loss"
 slug: "cover-crops"
 image: "../cover_crop.jpg"
+link: "https://www.legacyseeds.com/other-seed/"
 keywords: ""
 categories: 
     - ""
@@ -11,4 +12,8 @@ date: 2017-10-31T21:28:43-05:00
 draft: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
+Harvey's offers a variety of cover cropping and forage options to fit your operation. These include:
+
++ Red clover
++ Radish
++ Pasture & turf mixes
