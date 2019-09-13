@@ -10,7 +10,7 @@ catagories:
   - ""
   - ""
 date: 2019-09-04T13:11:22-04:00
-draft: true
+draft: false
 ---
 
 ## Genetics first—selecting a portfolio of hybrids from Legacy Seeds
