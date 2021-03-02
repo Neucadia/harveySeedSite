@@ -4,7 +4,7 @@ description: "Private-label varieties from the only independent alfalfa breeding
 slug: "alfalfa"
 image: "../alfalfa.jpg"
 link: "https://www.legacyseeds.com/alfalfa-varieties/"
-pdf: "2019_legacy.pdf"
+pdf: "2020_alfalfa.pdf"
 keywords: ""
 categories: 
     - ""

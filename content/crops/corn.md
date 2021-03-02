@@ -4,7 +4,7 @@ description: ""
 slug: "corn"
 image: "../corn.jpg"
 link: "https://www.legacyseeds.com/corn-hybrids/"
-pdf: "2019_legacy.pdf"
+pdf: "2021_legacy.pdf"
 keywords: ""
 catagories:
   - ""
