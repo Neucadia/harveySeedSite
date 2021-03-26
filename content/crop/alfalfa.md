@@ -2,7 +2,9 @@
 title: "Alfalfa"
 date: 2021-03-25T15:50:09-04:00
 draft: false
-image: "alfalfa.jpg"
+banner: "grass-banner.jpg"
+img: "alfalfa-cover.jpg"
+source: "Howard F. Schwartz, Colorado State University, Bugwood.org"
 tax: "Legume"
 cycle: "Perennial"
 tags: ["Attracts pollinators", "Bears traffic"]

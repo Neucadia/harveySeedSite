@@ -13,9 +13,9 @@
             <div id="main" class="alt">
                 <section id="banner" class="style2">
                     <div class="inner">
-			        {{ if .Params.image }}
+			        {{ if .Params.banner }}
                         <span class="image">
-                            <img src="{{ .Site.Params.baseURL }}/img/{{ .Params.image }}" alt="" />
+                            <img src="{{ .Site.Params.baseURL }}/img/{{ .Params.banner }}" alt="" />
                         </span>
 			        {{ end }}
                     </div>
@@ -62,6 +62,12 @@
                                         {{ with .Params.drilled }}<li>Drilled rate (lbs/A): <strong>{{ . }}</strong></li>{{ end }}
                                         {{ with .Params.broadcast }}<li>Broadcast rate (lbs/A): <strong>{{ . }}</strong></li>{{ end }}
                                     </ul>
+                                </div>
+                                <div class="8u">
+                                    <span class="image fit">
+                                        <img src="{{ .Site.Params.baseURL }}/img/{{ .Params.img }}" alt="{{ .Params.source }}" />
+                                        <p>{{ .Params.source }}</p>
+                                    </span>
                                 </div>
                             </div>
                             <!-- Traits Table -->
