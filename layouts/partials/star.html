@@ -1,0 +1,48 @@
+{{ if eq . "excellent" }}
+<td>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+</td>
+{{ else if eq . "great" }}
+<td>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star-half"></a>
+</td>
+{{ else if eq . "very good" }}
+<td>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+</td>
+{{ else if eq . "good" }}
+<td>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star-half"></a>
+</td>
+{{ else if eq . "average" }}
+<td>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+</td>
+{{ else if eq . "fair" }}
+<td>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star-half"></a>
+</td>
+{{ else if eq . "poor" }}
+<td>
+    <a href="#" class="icon fa-star"></a>
+    <a href="#" class="icon fa-star"></a>
+</td>
+{{ end }}
