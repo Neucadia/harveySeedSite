@@ -3,6 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 banner: "grass-banner.jpg"
+image: "" #needs "../" prefix for list view
 img: "alfalfa-cover.jpg"
 source: ""
 tax: "" #Legume, Brassica, Grass, Broadleaf
