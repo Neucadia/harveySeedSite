@@ -4,6 +4,7 @@ date: 2021-03-26T11:52:09-04:00
 draft: false
 banner: "clover-banner.jpg"
 img: "ladino.jpg"
+source: "Whitney Cranshaw, Colorado State University, Bugwood.org"
 tax: "Legume" #Legume, Brassica, Grass, Broadleaf
 cycle: "Perennial" #Perennial, Annual
 tags: ["Attracts pollinators", "Bears traffic"] #Attracts pollinators, bears traffic, etc
