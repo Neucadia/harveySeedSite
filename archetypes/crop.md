@@ -2,6 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
+banner: "grass-banner.jpg"
+img: "alfalfa-cover.jpg"
 tax: "" #Legume, Brassica, Grass, Broadleaf
 cycle: "" #Perennial
 tags: [""] #Attracts pollinators, bears traffic, etc
