@@ -3,6 +3,7 @@ title: "Ladino Clover"
 date: 2021-03-26T11:52:09-04:00
 draft: false
 banner: "clover-banner.jpg"
+image: "../clover-banner.jpg"
 img: "ladino.jpg"
 source: "Whitney Cranshaw, Colorado State University, Bugwood.org"
 tax: "Legume" #Legume, Brassica, Grass, Broadleaf
