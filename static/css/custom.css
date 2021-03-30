@@ -107,6 +107,9 @@ header.major, header.major > :first-child {
 ul.actions li {
   margin-bottom: 1em;
 }
+.inner .align-center > div > h2 {
+  margin-bottom: 0;
+}
 @media screen and (max-width: 540px) {
   #header .logo {
 	  padding: 0 .25em;
