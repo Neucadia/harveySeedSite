@@ -104,6 +104,9 @@ header.major, header.major > :first-child {
   width: 100%;
   height: 100%;
 }
+ul.actions li {
+  margin-bottom: 1em;
+}
 @media screen and (max-width: 540px) {
   #header .logo {
 	  padding: 0 .25em;
