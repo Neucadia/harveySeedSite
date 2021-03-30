@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+
+    {{ partial "header.html" . }}
+    <body>
+
+    {{ "<!-- Wrapper -->" | safeHTML }}
+        <div id="wrapper">
+
+            {{ partial "nav.html" . }}
+
+        {{ "<!-- Main -->" | safeHTML }}
+            <div id="main" class="alt">
+                <section id="banner" class="style2">
+                    <div class="inner">
+			        {{ if .Params.banner }}
+                        <span class="image">
+                            <img src="{{ .Site.Params.baseURL }}/img/{{ .Params.banner }}" alt="" />
+                        </span>
+			        {{ end }}
+                    </div>
+                </section>
+                <!-- One -->
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>{{ .Title}}</h1>
+                            </header>
+                            <h2>{{ .Params.tagline }}</h2>
+                            <ul class="actions small">
+                                {{ with .Params.tax }}
+                                    <li><a href="#" class="button special small">{{ . }}</a></li>
+                                {{ end }}
+                                {{ with .Params.cycle }}
+                                    <li><a href="#" class="button special small">{{ . }}</a></li>
+                                {{ end }}
+                                {{ range .Params.tags}}
+                                    <li><a href="#" class="button special small">{{ . }}</a></li>
+                                {{ end }}
+                            </ul>
+                            <!-- Content -->
+                            <div class="row">
+                                <div class="4u 12u$(xsmall)">
+                                    <h2>{{ .Params.soil }}</h2>
+                                    <h3>Preferred soil</h3>
+                                </div>
+                                <div class="4u 12u$(xsmall)">
+                                    <h2>{{ .Params.ph }}</h2>
+                                    <h3>Preferred pH</h3>
+                                </div>
+                                <div class="4u$ 12u$(xsmall)">
+                                    <h2>{{ .Params.stand }}</h2>
+                                    <h3>Stand length (yrs)</h3>
+                                </div>
+                            </div>
+                            <!-- Planting Table -->
+                            <div class="row">
+                                <div class="4u 12u$(small)">
+                                    <div class="box">
+                                        <h4>Agronomic information</h4>
+                                            <ul class="alt">
+                                                {{ with .Params.planting }}<li>Planting window: <strong>{{ . }}</strong></li>{{ end }}
+                                                {{ with .Params.depth }}<li>Planting depth (in): <strong>{{ . }}</strong></li>{{ end }}
+                                                {{ with .Params.rate }}<li>Seeding rate (lbs/A): <strong>{{ . }}</strong></li>{{ end }}
+                                                {{ with .Params.fertilizer }}<li>Recommended fertilizer: <strong>{{ . }}</strong></li>{{ end }}
+                                                {{ with .Params.mowing }}<li>Recommended mowing: <strong>{{ . }}</strong></li>{{ end }}
+                                            </ul>
+                                    </div>
+                                    <!-- Blend Table -->
+                                    <h4>Blend</h4>
+                                    <div class="table-wrapper">
+                                        <table>
+                                            <tbody>
+                                                <thead>
+                                                    <td>Crop</td>
+                                                    <td>% by weight</td>
+                                                </thead>
+                                                {{ range $index, $item := .Params.blend }}
+                                                <tr>
+                                                    <td>{{ $index }} </td>
+                                                    <td>{{ $item }}</td>
+                                                </tr>
+                                                {{ end }}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="8u 12u$(small)">
+                                    <div class="slider">
+                                        <div class="slides">
+                                        {{ range $index, $source := .Params.images }}
+                                            <div id="{{ $index }}">
+                                                <img src="{{ $.Site.Params.baseURL }}/img/{{ $source }}" alt="{{ $index }}" />
+                                            </div>
+                                        {{ end }}
+                                        </div>
+                                    </div>
+                                    <ul class="actions small slider-control">
+                                        {{ range $index, $source := .Params.images }}
+                                        <li>
+                                            <a class="button small" href="#{{ $index }}">{{ $index }}</a>
+                                        </li>
+                                        {{ end }}
+                                    </ul>
+                                </div>
+                            </div>
+                            {{ .Content }}
+                        </div>
+                    </section>
+            {{ "<!-- Disqus Inject -->" | safeHTML }}
+                {{ if .Site.DisqusShortname }}
+                  {{ partial "disqus.html" . }}
+                {{ end }}
+            </div>
+            
+        {{ "<!-- Footer -->" | safeHTML}}
+            {{ if .Site.Params.footer.enable }}
+                {{ partial "footer.html" . }}
+            {{ end }}
+        </div>
+
+    {{ "<!-- Scripts -->" | safeHTML}}
+        {{ partial "js.html" . }}
+
+    </body>
+</html>
