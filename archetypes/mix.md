@@ -4,6 +4,7 @@ date: 2021-03-30T11:11:55-04:00
 draft: false
 tagline: "Long lasting, low maintenance, balances high forage quality with less than ideal soil conditions"
 banner: "clover-banner.jpg"
+image: "../clover-banner.jpg" # needs the "../" for list view
 tax: "" #Legume, Brassica, Grass, Broadleaf
 cycle: "Perennial" #Perennial
 tags: ["Long lasting", "low maintenance"] #Attracts pollinators, bears traffic, etc
