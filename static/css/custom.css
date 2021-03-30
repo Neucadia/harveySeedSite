@@ -110,6 +110,10 @@ ul.actions li {
 .inner .align-center > div > h2 {
   margin-bottom: 0;
 }
+.inner .align-center > div > h3 {
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
 @media screen and (max-width: 540px) {
   #header .logo {
 	  padding: 0 .25em;
