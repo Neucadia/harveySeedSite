@@ -3,7 +3,7 @@ title: "Food Plots"
 description: "Custom mixes to fit your operation"
 slug: "food-plots"
 image: "../food_plots.jpg"
-link: "../../crop/"
+link: "../../mix/"
 keywords: ""
 categories: 
     - ""
