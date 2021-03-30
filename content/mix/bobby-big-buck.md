@@ -27,3 +27,5 @@ Images:
     alsike clover: "alsike-clover.jpg"
     ladino clover: "ladino.jpg"
 ---
+
+To bring bucks in early, consider planting with a nurse crop of peas and triticale at 50 lbs/A. The peas and triticale will provide quality forage while the clovers are established. Mow crop after July 15 to control weeds and refresh the clovers. Turkeys also like the mix for the insects it attracts.
