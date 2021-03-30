@@ -4,6 +4,7 @@ description: "Custom mixes to fit your operation"
 slug: "food-plots"
 image: "../food_plots.jpg"
 link: "../../mix/"
+linkText: "See all"
 keywords: ""
 categories: 
     - ""
