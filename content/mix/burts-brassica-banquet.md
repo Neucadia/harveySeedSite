@@ -29,4 +29,4 @@ Images:
    Chicory: "chicory.jpg"
 ---
 
-Burt's Brassica Banquet is primarily an annual and willl need tob e planted again each spring. Do not plant Burt's back-to-back as diseases will begin to build in the soil. This mix will work well to re-energize perennial food plots that are in decline.
+Burt's Brassica Banquet is primarily an annual and will need to be planted again each spring. Do not plant Burt's back-to-back as diseases will begin to build in the soil. This mix will work well to re-energize perennial food plots that are in decline.
