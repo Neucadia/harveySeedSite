@@ -114,6 +114,16 @@ ul.actions li {
   font-size: 0.9em;
   text-transform: uppercase;
 }
+@media screen and (max-width: 736px) {
+  #header nav a[href="#menu"]:last-child:before, #header nav a[href="#menu"]:last-child:after {
+    top: -4px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #header nav a[href="#menu"]:after, #header nav a[href="#menu"]:before {
+    top: 3px;
+  }
+}
 @media screen and (max-width: 540px) {
   #header .logo {
 	  padding: 0 .25em;
