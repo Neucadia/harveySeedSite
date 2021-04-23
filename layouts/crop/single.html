@@ -24,7 +24,12 @@
                     <section id="one">
                         <div class="inner">
                             <header class="major">
-                                <h1>{{ .Title}}</h1>
+                                <h1>
+                                    {{ with.Params.thumbnail }}
+                                    <span style="background-image: url({{ . }})"></span>
+                                    {{ end }}
+                                    {{ .Title}}
+                                </h1>
                             </header>
                             <ul class="actions small">
                                 {{ with .Params.tax }}
