@@ -64,8 +64,10 @@
                                     <ul class="alt">
                                         {{ with .Params.planting }}<li>Planting window: <strong>{{ . }}</strong></li>{{ end }}
                                         {{ with .Params.depth }}<li>Planting depth (in): <strong>{{ . }}</strong></li>{{ end }}
-                                        {{ with .Params.drilled }}<li>Drilled rate (lbs/A): <strong>{{ . }}</strong></li>{{ end }}
-                                        {{ with .Params.broadcast }}<li>Broadcast rate (lbs/A): <strong>{{ . }}</strong></li>{{ end }}
+                                        {{ with .Params.alone }}<li>Seeding rate (lbs/A): <strong>{{ . }}</strong></li>{{ end }}
+                                        {{ with .Params.mix }}<li>Mix seeding rate (lbs/A): <strong>{{ . }}</strong></li>{{ end }}
+                                        {{ with .Params.stand }}<li>Length of stand (yrs): <strong>{{ . }}</strong></li>{{ end }}
+                                        {{ with .Params.germination }}<li>Days to germination: <strong>{{ . }}</strong></li>{{ end }}
                                     </ul>
                                     {{ if isset .Params "disease" }}
                                     <h4>Agronomic Characteristics</h4>
