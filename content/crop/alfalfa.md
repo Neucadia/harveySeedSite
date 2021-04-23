@@ -1,5 +1,5 @@
 ---
-title: "Alfalfa"
+title: "Legacy Seeds L-210 Alfalfa"
 date: 2021-03-25T15:50:09-04:00
 draft: false
 banner: "grass-banner.jpg"
@@ -29,4 +29,18 @@ growth: "very good"
 residue: "very good"
 beneficials: "good"
 traffic: "very good"
+disease: true
+bacterialWilt: "Resistant"
+fusariumWilt: "Resistant"
+verticilliumWilt: "Resistant"
+anthracnose: "Resistant"
+prr: "Highly Resistant"
+arr: "Resistant"
+vrr: "Resistant"
 ---
+
+L-210 is a value-priced blend of alfalfa. The seed quality will meet the highest standards from US and Canadian seed producers.
+
+ - Value-priced alfalfa
+ - Short term rotations
+ - Good quality forage
