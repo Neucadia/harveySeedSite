@@ -135,3 +135,7 @@ ul.actions li {
 	  width: calc(100% - 2em);
   }
 }
+
+ul {
+  clear: both;
+}
