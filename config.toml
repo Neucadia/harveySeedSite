@@ -152,9 +152,17 @@ disqusShortname = ""
     enable = true
     title = "Welcome back"
     subtitle = "Harvey's Seed is a needed throwback in these modern times. We care about quality, service, customer experience, and results. Our wide variety of seed offerings were selected for their ability to deliver those results. Legacy brand alfalfa, corn hybrids, and silage varieties offer tremendous value in a premium package. DF Seeds soybeans and wheat genetics are a perennial podium finisher across the MSU Performance Trials maturities. And Harvey's cover crop and one-of-a-kind custom food plot mixes will make your blind the envy of deer camp."
+    partnerTitle = "Proud to supply two high-achieving Midwest brands"
     buttonText = "Let's go"
     url = "crops"
 
+    [[params.two.partners]]
+      name = "DF Seeds"
+      url = "/img/df-logo.png"
+
+    [[params.two.partners]]
+      name = "Legacy Seeds"
+      url = "/img/legacy-logo.png"
 
   # Contact section
   [params.contact]
