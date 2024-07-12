@@ -9,12 +9,12 @@ tax: "" #Legume, Brassica, Grass, Broadleaf
 cycle: "Annual" #Perennial
 tags: ["soil boosting", "high attraction"] #Attracts pollinators, bears traffic, etc
 soil:
-ph:
+ph: 6+
 stand: 1
 planting: "Fall"
 depth:
 rate: "One 20lb bag plants 1/3 acre"
-fertilizer:
+fertilizer: "150lbs/A 19-19-19 at planting"
 mowing: ""
 ---
 
