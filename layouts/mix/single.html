@@ -40,18 +40,24 @@
                             </ul>
                             <!-- Content -->
                             <div class="row align-center">
+                                {{ if .Params.soil }}
                                 <div class="4u 12u$(xsmall)">
                                     <h2>{{ .Params.soil }}</h2>
                                     <h3>Preferred soil</h3>
                                 </div>
+                                {{ end }}
+                                {{ if .Params.ph }}
                                 <div class="4u 12u$(xsmall)">
                                     <h2>{{ .Params.ph }}</h2>
                                     <h3>Preferred pH</h3>
                                 </div>
+                                {{ end }}
+                                {{ if .Params.stand }}
                                 <div class="4u$ 12u$(xsmall)">
                                     <h2>{{ .Params.stand }}</h2>
                                     <h3>Stand length (yrs)</h3>
                                 </div>
+                                {{ end }}
                             </div>
                             <!-- Planting Table -->
                             <div class="row">
