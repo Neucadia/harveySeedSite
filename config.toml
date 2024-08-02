@@ -93,9 +93,9 @@ disqusShortname = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Introducing Harvey's Seed"
-    subtitle = "High quality seed bred for Michigan's microclimate"
-    buttonText = "Get Started"
+    title = "Join us August 18th for a Jeff Sturgis seminar"
+    subtitle = "Learn how to improve your hunting property with Jeff Sturgis, Whitetail Habitat Solutions"
+    buttonText = "RSVP"
 
 
   # Tiles Section
