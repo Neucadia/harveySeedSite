@@ -3,12 +3,12 @@ title: "Soybeans"
 description: "Michigan-grown seed for Michigan growers"
 slug: "soybeans"
 image: "../soybeans.jpg"
-link: "https://www.dfseeds.com/soybeans/"
-pdf: "2021_df.pdf"
+link: "https://www.dfseeds.com/soybean/"
+pdf: "2024_df.pdf"
 keywords: ""
-categories: 
-    - ""
-    - ""
+categories:
+  - ""
+  - ""
 date: 2017-10-31T21:28:43-05:00
 draft: false
 ---

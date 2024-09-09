@@ -4,11 +4,11 @@ description: "Elite wheat from seven different breeding programs"
 slug: "wheat"
 image: "../wheat.jpg"
 link: "https://www.dfseeds.com/wheat"
-pdf: "2021_df.pdf"
+pdf: "2024_df.pdf"
 keywords: ""
-categories: 
-    - ""
-    - ""
+categories:
+  - ""
+  - ""
 date: 2017-10-31T21:28:43-05:00
 draft: false
 ---
