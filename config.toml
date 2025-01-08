@@ -96,6 +96,7 @@ disqusShortname = ""
     title = "Introducing Harvey's Seed"
     subtitle = "High quality seed bred for Michigan's microclimate"
     buttonText = "Get Started"
+    link = "#"
 
 
   # Tiles Section
